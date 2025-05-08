@@ -1,0 +1,644 @@
+[_ngcontent-olp-c2]:root {
+    --category-acc-color: #bfbfbf;
+    --item-acc-color: #fff;
+    --theme-bg-color: rgba(16 18 27 / 40%);
+    --border-color: rgba(113 119 144 / 25%);
+    --theme-color: #f9fafb;
+    --inactive-color: rgb(113 119 144 / 78%);
+    --body-font: "Poppins", sans-serif;
+    --hover-menu-bg: rgba(12 15 25 / 30%);
+    --content-title-color: #eaeaea;
+    --content-bg: rgb(146 151 179 / 13%);
+    --button-inactive: rgb(249 250 251 / 55%);
+    --dropdown-bg: #21242d;
+    --dropdown-hover: rgb(42 46 60);
+    --popup-bg: rgb(22 25 37);
+    --search-bg: #14162b;
+    --overlay-bg: rgba(36, 39, 59, .3);
+    --scrollbar-bg: rgb(1 2 3 / 40%)
+}
+
+.light-mode[_ngcontent-olp-c2] {
+    --theme-bg-color: rgb(255 255 255 / 31%);
+    --theme-color: #3c3a3a;
+    --inactive-color: #333333;
+    --button-inactive: #3c3a3a;
+    --search-bg: rgb(255 255 255 / 31%);
+    --dropdown-bg: #f7f7f7;
+    --overlay-bg: rgb(255 255 255 / 30%);
+    --dropdown-hover: rgb(236 236 236);
+    --border-color: rgb(255 255 255 / 35%);
+    --popup-bg: rgb(255 255 255);
+    --hover-menu-bg: rgba(255 255 255 / 35%);
+    --scrollbar-bg: rgb(255 253 253 / 57%);
+    --content-title-color: --theme-color
+}
+
+html[_ngcontent-olp-c2] {
+    scroll-behavior: smooth
+}
+
+body[_ngcontent-olp-c2],
+html[_ngcontent-olp-c2] {
+    background-color: #1e1b42;
+    font-family: Lato, sans-serif;
+    cursor: default;
+    margin: 0
+}
+
+p[_ngcontent-olp-c2] {
+    margin: 0
+}
+
+h1[_ngcontent-olp-c2],
+h2[_ngcontent-olp-c2],
+h3[_ngcontent-olp-c2],
+h4[_ngcontent-olp-c2],
+h5[_ngcontent-olp-c2],
+h6[_ngcontent-olp-c2],
+p[_ngcontent-olp-c2],
+div[_ngcontent-olp-c2],
+a[_ngcontent-olp-c2],
+button[_ngcontent-olp-c2] {
+    color: #fff;
+    margin: 0
+}
+
+h4[_ngcontent-olp-c2] {
+    margin-top: 5px
+}
+
+.main-background[_ngcontent-olp-c2] {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/videos/background.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.main-background[_ngcontent-olp-c2] video[_ngcontent-olp-c2] {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.personal-info-container[_ngcontent-olp-c2] {
+    width: calc(100% - 2rem);
+    height: calc(100dvh - 2rem);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] {
+    background-color: var(--theme-bg-color);
+    max-width: 1250px;
+    max-height: 860px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    border-radius: 1.5rem;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    font-size: 15px;
+    font-weight: 500
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] {
+    width: 250px;
+    min-width: 250px;
+    border-right: 1px solid var(--border-color)
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .left-side-header[_ngcontent-olp-c2] {
+    width: calc(100% - 2rem);
+    height: 60px;
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid var(--border-color);
+    cursor: pointer;
+    margin-left: 2rem;
+    gap: 1rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .left-side-header[_ngcontent-olp-c2] .button-mac[_ngcontent-olp-c2] {
+    width: 15px;
+    height: 15px;
+    background-color: #f96057;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .left-side-header[_ngcontent-olp-c2] .button-mac[_ngcontent-olp-c2] .button-icon[_ngcontent-olp-c2] {
+    display: none;
+    width: 9px;
+    height: 9px
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .left-side-header[_ngcontent-olp-c2] .yellow-button[_ngcontent-olp-c2] {
+    background-color: #f8ce52 !important
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .left-side-header[_ngcontent-olp-c2] .green-button[_ngcontent-olp-c2] {
+    background-color: #5fcf65 !important
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .left-side-header[_ngcontent-olp-c2]:hover .button-icon[_ngcontent-olp-c2] {
+    display: block !important
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] {
+    width: calc(250px - 4rem);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] .accordion-item[_ngcontent-olp-c2] {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] .accordion-item[_ngcontent-olp-c2] .accordion-header[_ngcontent-olp-c2] {
+    background-color: transparent;
+    cursor: pointer
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] .accordion-item[_ngcontent-olp-c2] .accordion-header[_ngcontent-olp-c2] .title-beauty[_ngcontent-olp-c2] {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--category-acc-color)
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] .accordion-item[_ngcontent-olp-c2] .accordion-header[_ngcontent-olp-c2] .accordion-icon[_ngcontent-olp-c2] {
+    float: right
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] .accordion-item[_ngcontent-olp-c2] .accordion-header[_ngcontent-olp-c2] .accordion-icon.open[_ngcontent-olp-c2] {
+    transform: rotate(180deg)
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] .accordion-item[_ngcontent-olp-c2] .accordion-content[_ngcontent-olp-c2] {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] .accordion-item[_ngcontent-olp-c2] .accordion-content[_ngcontent-olp-c2] .subtitle-beauty[_ngcontent-olp-c2] {
+    color: var(--item-acc-color);
+    padding: .75rem;
+    border-radius: .5rem;
+    text-decoration: none !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    gap: 1rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] .accordion-item[_ngcontent-olp-c2] .accordion-content[_ngcontent-olp-c2] .subtitle-beauty[_ngcontent-olp-c2] .subitem-icons[_ngcontent-olp-c2] {
+    width: 20px;
+    height: 20px
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] .accordion-item[_ngcontent-olp-c2] .accordion-content[_ngcontent-olp-c2] .subtitle-beauty[_ngcontent-olp-c2] .subitem-title[_ngcontent-olp-c2] {
+    display: block
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] .accordion-item[_ngcontent-olp-c2] .accordion-content[_ngcontent-olp-c2] .subtitle-beauty[_ngcontent-olp-c2]:hover {
+    background-color: var(--hover-menu-bg)
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] {
+    display: flex;
+    flex-direction: column;
+    width: inherit
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .header-right-side[_ngcontent-olp-c2] {
+    width: 100%;
+    min-height: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 1px solid var(--border-color)
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .header-right-side[_ngcontent-olp-c2] .my-image[_ngcontent-olp-c2] {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--theme-color);
+    margin: 0 1rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] {
+    overflow-y: scroll;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .about-container[_ngcontent-olp-c2] {
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: _ngcontent-olp-c2_gradient 15s ease infinite;
+    background-size: 400% 400%;
+    display: flex;
+    flex-direction: row
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .about-container[_ngcontent-olp-c2] .about-text[_ngcontent-olp-c2] {
+    text-align: justify
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .about-container[_ngcontent-olp-c2] .content-button[_ngcontent-olp-c2] {
+    border-radius: 1.5rem;
+    background-color: #1976d2;
+    font-weight: 700;
+    border: none;
+    margin-top: 1.2rem;
+    padding: 10px;
+    cursor: pointer
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .about-container[_ngcontent-olp-c2] .about-image[_ngcontent-olp-c2] {
+    width: 350px
+}
+
+@keyframes _ngcontent-olp-c2_gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    to {
+        background-position: 0% 50%
+    }
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-skills[_ngcontent-olp-c2] {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5re;
+    gap: 1rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-skills[_ngcontent-olp-c2] .skill-container[_ngcontent-olp-c2] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+    background-color: var(--theme-bg-color);
+    border-radius: 25%
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-skills[_ngcontent-olp-c2] .skill-container[_ngcontent-olp-c2] .skill-detail[_ngcontent-olp-c2] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    width: 60px
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-skills[_ngcontent-olp-c2] .skill-container[_ngcontent-olp-c2] .skill-detail[_ngcontent-olp-c2] .items-icon[_ngcontent-olp-c2] {
+    width: 45px;
+    height: 45px
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-skills[_ngcontent-olp-c2] .skill-container[_ngcontent-olp-c2] .skill-detail[_ngcontent-olp-c2] .item-name[_ngcontent-olp-c2] {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-projects[_ngcontent-olp-c2] {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-projects[_ngcontent-olp-c2] .project-box[_ngcontent-olp-c2] {
+    border-radius: 25px;
+    width: calc(50% - 5rem);
+    height: auto;
+    border: 1px solid var(--theme-bg-color);
+    padding: 2rem;
+    transition: .3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-projects[_ngcontent-olp-c2] .project-box[_ngcontent-olp-c2] .project-header[_ngcontent-olp-c2] {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-projects[_ngcontent-olp-c2] .project-box[_ngcontent-olp-c2] .project-header[_ngcontent-olp-c2] .items-logo[_ngcontent-olp-c2] {
+    height: 45px;
+    border-radius: 25%
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-projects[_ngcontent-olp-c2] .project-box[_ngcontent-olp-c2] .project-detail-container[_ngcontent-olp-c2] {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-projects[_ngcontent-olp-c2] .project-box[_ngcontent-olp-c2] .project-with-link[_ngcontent-olp-c2] {
+    border-top: 1px solid var(--border-color)
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-projects[_ngcontent-olp-c2] .project-box[_ngcontent-olp-c2] li[_ngcontent-olp-c2] {
+    padding-bottom: 10px
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-projects[_ngcontent-olp-c2] .project-box[_ngcontent-olp-c2] .project-button[_ngcontent-olp-c2] {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-projects[_ngcontent-olp-c2] .project-box[_ngcontent-olp-c2] .project-button[_ngcontent-olp-c2] .button-style[_ngcontent-olp-c2] {
+    border-radius: 1.5rem;
+    background-color: #1976d2;
+    font-weight: 700;
+    border: none;
+    margin-top: .75rem;
+    padding: 10px;
+    cursor: pointer
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-projects[_ngcontent-olp-c2] .project-box[_ngcontent-olp-c2]:hover {
+    transform: scale(1.02);
+    background-color: var(--theme-bg-color)
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .box-headr[_ngcontent-olp-c2] {
+    color: var(--content-title-color)
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .box-container[_ngcontent-olp-c2] {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-jobs[_ngcontent-olp-c2] {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    background-color: var(--theme-bg-color)
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-jobs[_ngcontent-olp-c2] .job-container[_ngcontent-olp-c2] {
+    width: calc(100% - 4rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .75rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    cursor: pointer
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-jobs[_ngcontent-olp-c2] .job-container[_ngcontent-olp-c2] .job-detail[_ngcontent-olp-c2] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-jobs[_ngcontent-olp-c2] .job-container[_ngcontent-olp-c2] .job-detail[_ngcontent-olp-c2] .job-title[_ngcontent-olp-c2] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-jobs[_ngcontent-olp-c2] .job-container[_ngcontent-olp-c2] .job-detail[_ngcontent-olp-c2] .job-title[_ngcontent-olp-c2] .items-logo[_ngcontent-olp-c2] {
+    height: 45px;
+    border-radius: .5rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-jobs[_ngcontent-olp-c2] .job-container[_ngcontent-olp-c2] .job-detail[_ngcontent-olp-c2] .job-title[_ngcontent-olp-c2] .item-name[_ngcontent-olp-c2] {
+    font-weight: 700
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-jobs[_ngcontent-olp-c2] .job-container[_ngcontent-olp-c2] li[_ngcontent-olp-c2] {
+    padding-left: 1rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-jobs[_ngcontent-olp-c2] .job-container[_ngcontent-olp-c2]:hover {
+    background-color: var(--theme-bg-color)
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-uni[_ngcontent-olp-c2] {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    background-color: var(--theme-bg-color)
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-uni[_ngcontent-olp-c2] .uni-container[_ngcontent-olp-c2] {
+    width: calc(100% - 4rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 1.5rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-uni[_ngcontent-olp-c2] .uni-container[_ngcontent-olp-c2] .uni-detail[_ngcontent-olp-c2] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-uni[_ngcontent-olp-c2] .uni-container[_ngcontent-olp-c2] .uni-detail[_ngcontent-olp-c2] .uni-title[_ngcontent-olp-c2] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-uni[_ngcontent-olp-c2] .uni-container[_ngcontent-olp-c2] .uni-detail[_ngcontent-olp-c2] .uni-title[_ngcontent-olp-c2] .items-logo[_ngcontent-olp-c2] {
+    height: 45px
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-uni[_ngcontent-olp-c2] .uni-container[_ngcontent-olp-c2] .uni-detail[_ngcontent-olp-c2] .uni-title[_ngcontent-olp-c2] .uni-items[_ngcontent-olp-c2] {
+    display: flex;
+    flex-direction: column
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-uni[_ngcontent-olp-c2] .uni-container[_ngcontent-olp-c2] .uni-detail[_ngcontent-olp-c2] .uni-title[_ngcontent-olp-c2] .uni-items[_ngcontent-olp-c2] .item-name[_ngcontent-olp-c2] {
+    font-weight: 700
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-uni[_ngcontent-olp-c2] .uni-container[_ngcontent-olp-c2] .uni-detail[_ngcontent-olp-c2] .uni-title[_ngcontent-olp-c2] .uni-items[_ngcontent-olp-c2] .item-uni[_ngcontent-olp-c2] {
+    font-weight: 400;
+    font-size: 12px
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-uni[_ngcontent-olp-c2] .uni-container[_ngcontent-olp-c2] .uni-detail[_ngcontent-olp-c2] .uni-date[_ngcontent-olp-c2] {
+    width: 100%;
+    text-align: right
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] [_ngcontent-olp-c2]::-webkit-scrollbar {
+    width: 4px;
+    background-color: transparent
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] [_ngcontent-olp-c2]::-webkit-scrollbar-thumb {
+    background-color: #5557;
+    border-radius: 4px
+}
+
+.personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] [_ngcontent-olp-c2]::-webkit-scrollbar-thumb:hover {
+    background-color: #444
+}
+
+@media only screen and (max-width: 950px) {
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .about-container[_ngcontent-olp-c2] {
+        flex-direction: column-reverse
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .about-container[_ngcontent-olp-c2] .about-image[_ngcontent-olp-c2] {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-projects[_ngcontent-olp-c2] .project-box[_ngcontent-olp-c2] {
+        width: inherit
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .personal-info-container[_ngcontent-olp-c2] {
+        width: calc(100% - 1rem);
+        height: calc(100dvh - 1rem);
+        padding: .5rem
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] {
+        width: 50px;
+        min-width: 50px
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .left-side-header[_ngcontent-olp-c2] .button-mac[_ngcontent-olp-c2] {
+        display: none
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] {
+        padding: 0;
+        width: 50px;
+        gap: .5rem
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] .accordion-item[_ngcontent-olp-c2] .accordion-header[_ngcontent-olp-c2] {
+        display: none
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] .accordion-item[_ngcontent-olp-c2] .accordion-content[_ngcontent-olp-c2],
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] .accordion-item[_ngcontent-olp-c2] .accordion-content[_ngcontent-olp-c2] .subtitle-beauty[_ngcontent-olp-c2] {
+        padding: .5rem
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] .accordion-item[_ngcontent-olp-c2] .accordion-content[_ngcontent-olp-c2] .subtitle-beauty[_ngcontent-olp-c2] .subitem-title[_ngcontent-olp-c2] {
+        display: none
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .left-side[_ngcontent-olp-c2] .accordion[_ngcontent-olp-c2] .accordion-item[_ngcontent-olp-c2] .accordion-content[_ngcontent-olp-c2] .subtitle-beauty[_ngcontent-olp-c2] .subitem-icons[_ngcontent-olp-c2] {
+        margin: 0
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] {
+        width: calc(100% - 50px)
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] {
+        padding: .5rem;
+        gap: 1rem
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .about-container[_ngcontent-olp-c2] {
+        padding: 1rem
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .box-container[_ngcontent-olp-c2] {
+        width: 100%;
+        gap: 1rem
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-jobs[_ngcontent-olp-c2] .job-container[_ngcontent-olp-c2] {
+        padding: 1rem;
+        width: calc(100% - 2rem)
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-jobs[_ngcontent-olp-c2] .job-container[_ngcontent-olp-c2] .job-detail[_ngcontent-olp-c2] {
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-jobs[_ngcontent-olp-c2] .job-container[_ngcontent-olp-c2] .job-detail[_ngcontent-olp-c2] p[_ngcontent-olp-c2] {
+        text-align: right;
+        width: 100%
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-uni[_ngcontent-olp-c2] .uni-container[_ngcontent-olp-c2] {
+        padding: 1rem
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-uni[_ngcontent-olp-c2] .uni-container[_ngcontent-olp-c2] .uni-detail[_ngcontent-olp-c2] {
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .main-projects[_ngcontent-olp-c2] .project-box[_ngcontent-olp-c2] {
+        padding: 1rem
+    }
+}
