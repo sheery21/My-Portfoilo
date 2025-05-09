@@ -1620,6 +1620,7 @@
 //             ge("MutationObserver"),
 //             ge("WebKitMutationObserver")
 //         }
+        
 //         ),
 //         Zone.__load_patch("IntersectionObserver", (t, n, i) => {
 //             ge("IntersectionObserver")
