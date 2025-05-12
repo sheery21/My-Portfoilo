@@ -103,7 +103,7 @@ h4[_ngcontent-olp-c2] {
 
     .form-group input,
     .form-group textarea {
-      width: 100%;
+      width: 97%;
       padding: 12px;
       border: none;
       border-radius: 8px;
@@ -124,7 +124,7 @@ h4[_ngcontent-olp-c2] {
     }
 
     .form-group button {
-      width: 100%;
+      width: 50%;
       background: #00aaff;
       border: none;
       padding: 14px;
@@ -153,13 +153,31 @@ h4[_ngcontent-olp-c2] {
       text-decoration: none;
     }
 
+    .project-btn{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 15px 0 0 0;
+        width: 100%;
+    }
+    .project-btn > button{
+        background: #00aaff;
+      border: none;
+      padding: 14px;
+      font-size: 16px;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+        width: 30%;
+    }
 .main-background[_ngcontent-olp-c2] {
     position: fixed;
     right: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/assets/videos/background.png);
+    /* background-image: url("/assets/videos/background.png"); */
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover
@@ -351,8 +369,14 @@ h4[_ngcontent-olp-c2] {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     animation: _ngcontent-olp-c2_gradient 15s ease infinite;
     background-size: 400% 400%;
-    display: flex;
+    display: flex;    
     flex-direction: row
+}
+
+.about-para{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .about-container[_ngcontent-olp-c2] .about-text[_ngcontent-olp-c2] {
@@ -367,6 +391,7 @@ h4[_ngcontent-olp-c2] {
     margin-top: 1.2rem;
     padding: 10px;
     cursor: pointer
+    
 }
 
 .personal-info-container[_ngcontent-olp-c2] .main-personal-info[_ngcontent-olp-c2] .right-side[_ngcontent-olp-c2] .right-side-main[_ngcontent-olp-c2] .about-container[_ngcontent-olp-c2] .about-image[_ngcontent-olp-c2] {
